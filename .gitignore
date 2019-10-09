@@ -17,3 +17,7 @@ yarn-error.log*
 *.sw?
 
 package-lock.json
+yarn.lock
+
+# exclude the build folder
+build
