@@ -21,3 +21,4 @@ yarn.lock
 
 # exclude the build folder
 build
+.cache
