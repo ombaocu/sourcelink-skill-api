@@ -1,26 +1,48 @@
 {
-  "name": "strapi-plugin-content-type-builder",
-  "version": "3.0.0-beta.11",
-  "description": "Strapi plugin to create content type (API).",
-  "strapi": {
-    "name": "Content Type Builder",
-    "icon": "paint-brush",
-    "description": "content-type-builder.plugin.description"
+  "_from": "strapi-plugin-content-type-builder@3.0.0-beta.16.8",
+  "_id": "strapi-plugin-content-type-builder@3.0.0-beta.16.8",
+  "_inBundle": false,
+  "_integrity": "sha512-lzDd6l3CjC7x4kL9+fdmHLJMwrThN4KWdWV1Bq3ndewHDfluK2AOdAWmt+gOWTTDRhp7x88qOzz413fO45VMjQ==",
+  "_location": "/strapi-plugin-content-type-builder",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "strapi-plugin-content-type-builder@3.0.0-beta.16.8",
+    "name": "strapi-plugin-content-type-builder",
+    "escapedName": "strapi-plugin-content-type-builder",
+    "rawSpec": "3.0.0-beta.16.8",
+    "saveSpec": null,
+    "fetchSpec": "3.0.0-beta.16.8"
   },
-  "scripts": {
-    "test": "echo \"no tests yet\""
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-content-type-builder/-/strapi-plugin-content-type-builder-3.0.0-beta.16.8.tgz",
+  "_shasum": "04066ee3f25653a3c54e7383b24e79c17d7cdeb5",
+  "_spec": "strapi-plugin-content-type-builder@3.0.0-beta.16.8",
+  "_where": "/home/gary/code/sourcelink-skill-api",
+  "author": {
+    "name": "Strapi team",
+    "email": "hi@strapi.io",
+    "url": "http://strapi.io"
   },
+  "bugs": {
+    "url": "https://github.com/strapi/strapi/issues"
+  },
+  "bundleDependencies": false,
   "dependencies": {
+    "@sindresorhus/slugify": "^0.9.1",
     "classnames": "^2.2.6",
     "fs-extra": "^7.0.0",
     "immutable": "^3.8.2",
     "invariant": "^2.2.1",
     "lodash": "^4.17.11",
     "pluralize": "^7.0.0",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
     "react-intl": "^2.8.0",
-    "react-redux": "^7.0.2",
+    "react-redux": "7.0.2",
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0",
     "react-transition-group": "^2.5.0",
@@ -28,15 +50,20 @@
     "redux": "^4.0.1",
     "redux-immutable": "^4.0.0",
     "reselect": "^3.0.1",
-    "strapi-generate": "3.0.0-beta.11",
-    "strapi-generate-api": "3.0.0-beta.11",
-    "strapi-helper-plugin": "3.0.0-beta.11"
+    "strapi-generate": "3.0.0-beta.16.8",
+    "strapi-generate-api": "3.0.0-beta.16.8",
+    "strapi-helper-plugin": "3.0.0-beta.16.8",
+    "yup": "^0.27.0"
   },
-  "author": {
-    "name": "Strapi team",
-    "email": "hi@strapi.io",
-    "url": "http://strapi.io"
+  "deprecated": false,
+  "description": "Strapi plugin to create content type (API).",
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
   },
+  "gitHead": "2d04d25097de93b58f10965fd6a174ffb25b1244",
+  "homepage": "https://github.com/strapi/strapi#readme",
+  "license": "MIT",
   "maintainers": [
     {
       "name": "Strapi team",
@@ -44,14 +71,18 @@
       "url": "http://strapi.io"
     }
   ],
+  "name": "strapi-plugin-content-type-builder",
   "repository": {
     "type": "git",
     "url": "git://github.com/strapi/strapi.git"
   },
-  "engines": {
-    "node": ">= 10.0.0",
-    "npm": ">= 6.0.0"
+  "scripts": {
+    "test": "jest --verbose --config=jest.config.unit.js"
   },
-  "license": "MIT",
-  "gitHead": "3a94c7ea90dc19b882c4a815360cd091216f3d49"
+  "strapi": {
+    "name": "Content Type Builder",
+    "icon": "paint-brush",
+    "description": "content-type-builder.plugin.description"
+  },
+  "version": "3.0.0-beta.16.8"
 }
