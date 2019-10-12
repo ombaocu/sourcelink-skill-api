@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "frameworks",
+  "info": {
+    "name": "framework",
+    "description": "Software Development Frameworks "
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "maxLength": 60,
+      "required": true,
+      "unique": true
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Active": {
+      "required": true,
+      "default": true,
+      "type": "boolean"
+    }
+  }
+}
