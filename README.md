@@ -4,8 +4,8 @@
 Sourcelink is a conceptual business idea, used to create a series of tutorials 
 on how to make use of JavaScript for full stack development. 
 
-The code in the repository is primarily focused on utilizing Strapi - Open Source Node.jS 
-Headless CMS to develop an API to supply the Sourcelink Front End Applications both
+The code in the repository is primarily focused on utilizing [Strapi - Open Source Node.jS 
+Headless CMS](https://strapi.io/) to develop an API to supply the Sourcelink Front End Applications both
 Web and Mobile with reference data they need. 
 
 ## Tutorial Links
